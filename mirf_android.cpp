@@ -1,5 +1,5 @@
 /*
-	Model of mirf library ported to Odroid C1 / Android
+	Model of Mirf wrapping library ported to Odroid C1 / Android
 
 	Copyright (C) <2016>  <Jörg Wolff>
 	This program is free software: you can redistribute it and/or modify
