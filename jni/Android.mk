@@ -9,10 +9,9 @@ include $(CLEAR_VARS)
 
 LOCAL_CFLAGS += -DDEBUG
 
-LOCAL_C_INCLUDES += ../../wiringPi/jni/wiringPi
-
-
 LOCAL_MODULE := libmirf
+
+LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../wiringPi/jni/wiringPi
 
 LOCAL_SRC_FILES := \
 	mirf.cpp 
@@ -24,7 +23,6 @@ LOCAL_SHARED_LIBRARIES := \
 	libdl \
 	libc \
 	libWiringPi
-
 
 LOCAL_CFLAGS += -DANDROID -Wall -Wextra
 
