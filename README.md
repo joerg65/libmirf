@@ -7,3 +7,4 @@ To compile the library it can be stored e.g. to the sample directory of the Andr
 ```
 "../../ndk-build -B"
 ```
+As a dependency, there must be coexist in the tree the project wiringPi for Odroid C1. in Android.mk, there are some relative paths pointing to.
